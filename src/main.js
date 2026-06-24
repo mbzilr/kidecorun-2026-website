@@ -10,7 +10,7 @@ app.innerHTML = `
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a class="brand" href="#top">
-        <img src="${ph(44, 44, "KR", "e90e0e", "ffffff")}" alt="BayanRun logo" class="brand-logo" />
+        <img src="/images/KidecoGem.png" alt="Kideco Run logo" class="brand-logo" />
         <span class="brand-name">KIDECO<span> RUN 2026</span></span>
       </a>
 
@@ -46,17 +46,19 @@ app.innerHTML = `
       <span class="ring-container">
         <span class="ringring"></span>
         <span class="circle"></span>
-      </span>
-      6 September, 2026 · Paser, Indonesia
+      </span id="notify-ping">
+      Registrasi dibuka sampai 5 Juli 2026!
     </p>
       
       <p class="hero-subtitle">
         Bersiaplah untuk pengalaman lari yang tak terlupakan di tahun ketiga KIDECO RUN 2026, diselenggarakan oleh PT Kideco Jaya Agung dalam rangka memperingati HUT ke-44 PT Kideco Jaya Agung.
         <br /><br />
         Tak hanya berlari, peserta juga akan dimanjakan dengan beragam kuliner khas Paser yang tersedia di lokasi.
-        <h1 class="hero-title">BERLARI<br />UNTUK LESTARI.</h1>
         <br /><br />
         Daftar Sekarang dan buktikan langkahmu di KIDECO RUN 2026!
+        <img src="/images/Tagline.png" alt="Berlari Untuk Lestari" class="hero-title" style="width: clamp(280px, 60vw, 900px); height: auto; display: block;" />
+        <br /><br />
+        Di tengah keindahan alam dan cita rasa lokal, KIDECO RUN 2026 menantimu di garis start!
 
       </p>
       <div class="hero-actions">
@@ -75,16 +77,16 @@ app.innerHTML = `
   <!-- ===================== MARQUEE ===================== -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
-      <span>★ EARLY BIRD ENDS JULY 5</span>
+      <span>★ BREAK THE LIMIT</span>
       <span>★ FINISHER MEDAL FOR ALL</span>
       <span>★ PASER, EAST KALIMANTAN</span>
-      <span>★ EARLY BIRD ENDS JULY 5</span>
+      <span>★ ARE YOU READY?</span>
       <span>★ FINISHER MEDAL FOR ALL</span>
       <span>★ READY TO STRIVE FOR MORE?</span>
-      <span>★ EARLY BIRD ENDS JULY 5</span>
+      <span>★ DONT STOP, WONT STOP</span>
       <span>★ FINISHER MEDAL FOR ALL</span>
       <span>★ PASER, EAST KALIMANTAN</span>
-      <span>★ EARLY BIRD ENDS JULY 5</span>
+      <span>★ SEE YOU THERE! </span>
       <span>★ FINISHER MEDAL FOR ALL</span>
       <span>★ READY TO STRIVE FOR MORE?</span>
     </div>
@@ -94,7 +96,7 @@ app.innerHTML = `
   <section class="section" id="about">
     <div class="container about-grid">
       <div class="about-media">
-        <img src="${ph(640, 480, "About Kideco Run", "1e293b", "38bdf8")}" alt="Runners at BayanRun" />
+        <img src="${ph(640, 480, "About Kideco Run", "1e293b", "38bdf8")}" alt="Runners at Kideco Run" />
         <div class="about-badge">
           <span class="badge-num">3rd</span>
           <span class="badge-text">Annual Edition</span>
@@ -141,7 +143,7 @@ app.innerHTML = `
             <div class="card-meta">
               <span>⏱ ~30 min</span><span>👥 All ages</span>
             </div>
-            <a href="#register" class="btn btn-outline">Daftar | Rp150K</a>
+            <a href="#register" class="btn btn-outline">Rp. 200.000</a>
           </div>
         </article>
 
@@ -156,7 +158,7 @@ app.innerHTML = `
             <div class="card-meta">
               <span>⏱ ~60 min</span><span>👥 15+</span>
             </div>
-            <a href="#register" class="btn btn-outline">Daftar | Rp250K</a>
+            <a href="#register" class="btn btn-outline">Rp. 250.000</a>
           </div>
         </article>
       </div>
@@ -225,7 +227,7 @@ app.innerHTML = `
         </p>
       </div>
       <div class="route-map">
-        <img src="${ph(1200, 500, "Route Map", "0f172a", "38bdf8")}" alt="BayanRun route map" />
+        <img src="${ph(1200, 500, "Route Map", "0f172a", "38bdf8")}" alt="Kideco Run Route Map" />
         <div class="route-points">
           <div class="route-point"><span>START</span><p>Arena Promosi Putri Petung</p></div>
           <div class="route-point"><span>KM 3.5</span><p>Checkpoint 1</p></div>
@@ -253,14 +255,15 @@ app.innerHTML = `
         </div>
       </div>
       <div class="register-card">
-        <img src="${ph(420, 320, "Race Kit", "0ea5e9", "ffffff")}" alt="BayanRun race kit" />
+        <img src="${ph(420, 320, "Race Kit", "0ea5e9", "ffffff")}" alt="Kideco Run Race Kit" />
         <div class="register-card-body">
-          <h3>RACEPACK KIT</h3>
+          <h3>RACE KIT</h3>
           <ul>
-            <li>Official Jersey</li>
-            <li>BIB Number with Timing Chip</li>
-            <li>Finisher Medal</li>
-            <li>Goodie Bag</li>
+            <li>Medali Finisher</li>
+            <li>BIB Number</li>
+            <li>Jersey</li>
+            <li>Timing System</li>
+            <li>Tote Bag</li>
           </ul>
         </div>
       </div>
@@ -272,7 +275,7 @@ app.innerHTML = `
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">Our Partners</p>
-        <h2 class="section-title">Powered by the community</h2>
+        <h2 class="section-title">Powered by</h2>
       </div>
       <div class="sponsors-grid">
         ${Array.from({ length: 6 })
@@ -341,7 +344,7 @@ app.innerHTML = `
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="#top">
+        <a class="brand" id="footerLogo" href="#top">
           <img src="${ph(40, 40, "KR", "e90e0e", "ffffff")}" alt="" class="brand-logo" />
           <span class="brand-name light">Kideco<span>Run</span></span>
         </a>
@@ -384,7 +387,7 @@ app.innerHTML = `
         <div class="footer-legal">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
-          <a href="#top">Back to top ↑</a>
+          <a href="#top" id="backToTop">Back to top ↑</a>
         </div>
       </div>
     </div>
@@ -406,3 +409,12 @@ nav.querySelectorAll("a").forEach((a) =>
     toggle.setAttribute("aria-expanded", "false");
   }),
 );
+
+// Footer logo & back-to-top: smooth scroll to the beginning of the document
+const scrollToTop = (e) => {
+  e.preventDefault();
+  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+};
+
+document.getElementById("footerLogo")?.addEventListener("click", scrollToTop);
+document.getElementById("backToTop")?.addEventListener("click", scrollToTop);
