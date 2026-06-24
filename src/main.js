@@ -23,7 +23,7 @@ app.innerHTML = `
         <a href="#faq">FAQ</a>
       </nav>
 
-      <a href="#register" class="btn btn-primary nav-cta">Register Now</a>
+      <a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" class="btn btn-primary nav-cta">Register Now</a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -62,8 +62,8 @@ app.innerHTML = `
 
       </p>
       <div class="hero-actions">
-        <a href="#register" class="btn btn-primary btn-lg">Register Now</a>
-        <a href="#about" class="btn btn-ghost btn-lg">Learn More</a>
+        <a a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" class="btn btn-primary btn-lg">Register Now</a>
+        <a href="#about" class="btn btn-ghost btn-lg">Learn More</a>a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank"
       </div>
 
       <div class="hero-stats">
@@ -115,7 +115,7 @@ app.innerHTML = `
         <li><span>✓</span> Medali finisher dan race kit untuk setiap peserta</li>
         <li><span>✓</span> Hiburan musik live, area kuliner, dan zona keluarga di finish line</li>
         </ul>
-        <a href="/" class="btn btn-primary">Join the Run</a>
+        <a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" class="btn btn-primary">Join the Run</a>
       </div>
     </div>
   </section>
@@ -143,7 +143,7 @@ app.innerHTML = `
             <div class="card-meta">
               <span>⏱ ~30 min</span><span>👥 All ages</span>
             </div>
-            <a href="#register" class="btn btn-outline">Rp. 200.000</a>
+            <a href="https://sunrego.com/kideco-run-2026" class="btn btn-outline">Rp. 200.000</a>
           </div>
         </article>
 
@@ -158,7 +158,7 @@ app.innerHTML = `
             <div class="card-meta">
               <span>⏱ ~60 min</span><span>👥 15+</span>
             </div>
-            <a href="#register" class="btn btn-outline">Rp. 250.000</a>
+            <a a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" class="btn btn-outline">Rp. 250.000</a>
           </div>
         </article>
       </div>
@@ -175,7 +175,7 @@ app.innerHTML = `
           From packet pickup to the finish line celebration. Here's everything
           you need to know about race weekend.
         </p>
-        <a href="#register" style="margin-top:1.5rem" class="btn btn-primary">Save your spot</a>
+        <a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" style="margin-top:1.5rem" class="btn btn-primary">Save your spot</a>
       </div>
 
       <ol class="timeline">
@@ -250,7 +250,7 @@ app.innerHTML = `
           our charity partners.
         </p>
         <div class="register-actions">
-          <a href="#top" class="btn btn-light btn-lg">Register Now</a>
+          <a href="https://sunrego.com/kideco-run-2026" rel="noreferrer noopener" target="_blank" class="btn btn-light btn-lg">Register Now</a>
           <a href="#faq" class="btn btn-ghost-light btn-lg">View FAQ</a>
         </div>
       </div>
