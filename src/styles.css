@@ -1,5 +1,5 @@
 /* ============================================================
-   BayanRun — layout recreation
+   Kideco Run — layout recreation
    ============================================================ */
 
 :root {
@@ -51,6 +51,10 @@ img {
 a {
   color: var(--accent-dark);
   text-decoration: none;
+}
+
+.hidden {
+  display: none;
 }
 
 .container {
@@ -332,6 +336,88 @@ a {
   width: 14px;
   height: 14px;
   flex: 0 0 auto;
+}
+
+/* ============================================================
+   COUNTDOWN
+   ============================================================ */
+.countdown-section {
+  background: linear-gradient(135deg, #0f172a 0%, #920909 140%);
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+.countdown-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.countdown-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+  line-height: 1.1;
+}
+.countdown-subtitle {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: var(--fg-light);
+  max-width: 640px;
+  margin: 0 0 2.5rem;
+}
+.countdown-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(6px);
+}
+.countdown-num {
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.countdown-label {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--fg-light);
+  font-weight: 600;
+}
+.countdown-target-date {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: var(--fg-light);
+  opacity: 0.85;
+}
+
+@media (max-width: 720px) {
+  .countdown-unit {
+    min-width: 72px;
+    padding: 1rem 0.5rem;
+  }
+  .countdown-grid {
+    gap: 0.6rem;
+  }
+}
+
+.emphasis-font-weight {
+  font-weight: 800;
 }
 
 .circle {
